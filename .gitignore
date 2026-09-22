@@ -1,0 +1,41 @@
+# ----------------------------
+# Raw data (user-provided)
+# ----------------------------
+# Ignore everything in raw folders...
+data/**/raw/*
+
+# keep raw folder README
+!data/**/raw/README
+!data/**/raw/README.*
+!data/**/raw/.gitkeep
+
+# ----------------------------
+# Processed data + outputs (generated)
+# ----------------------------
+data/**/processed/*
+
+# keep processed folder README
+!data/**/processed/README
+!data/**/processed/README.*
+!data/**/processed/.gitkeep
+
+output/**
+
+# ----------------------------
+# renv - local library/caches (do not track)
+# ----------------------------
+renv/library/
+renv/staging/
+renv/local/
+renv/sandbox/
+
+# ----------------------------
+# R / RStudio / OS clutter
+# ----------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+.DS_Store
+Thumbs.db
