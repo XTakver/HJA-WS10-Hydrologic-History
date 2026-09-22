@@ -29,8 +29,9 @@ This repository is released under the [MIT License](LICENSE). Data referenced ab
 - `output/` (not tracked in git; created by the provided scripts)
   - `figures/` – generated figures, organized by data stream
   - `statistics/` – generated statistical tables, organized by data stream
+- `R`
+  - `functions/` – shared helper functions sourced by analysis scripts (e.g., `initialize_font()`, `set_plot_theme()`, `paths_and_directories.R`)   
 - `scripts/` – analysis scripts organized by data stream
-  - `functions/` – shared helper functions sourced by analysis scripts (e.g., `initialize_font()`, `set_plot_theme()`, `paths_and_directories.R`)
 - `assets/`
   - `fonts/roboto_condensed/` – bundled Roboto Condensed `.ttf` files used for reproducible figure rendering (see Reproducibility, below)
 
