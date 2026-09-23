@@ -23,7 +23,7 @@
 #             Package Import ----
 ## ----------------------------------------- ##
 
-librarian::shelf(tidyverse, here, Cairo)
+librarian::shelf(tidyverse, here, Cairo, tinythemes)
 
 ## ----------------------------------------- ##
 #             Source Functions ----

@@ -22,7 +22,7 @@
 librarian::shelf(tidyverse, here)
 
 # Data Visualization
-librarian::shelf(hrbrthemes, Cairo, grid)
+librarian::shelf(tinythemes, Cairo, grid)
 
 ## ----------------------------------------- ##
 #          Import Helper Functions ----

@@ -35,7 +35,7 @@
 #             Package Import ----
 ## ----------------------------------------- ##
 
-librarian::shelf(tidyverse, glue, here, vegan, ggrepel, scales, Cairo)
+librarian::shelf(tidyverse, glue, here, vegan, ggrepel, scales, Cairo, tinythemes)
 
 ## ----------------------------------------- ##
 #             Source Functions ----
