@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both this software and the associated article."
+type: software
+title: "Code for 'Hydrologic History Drives Divergent Soil Organic Matter Trajectories Across Hillslopes': R analysis pipeline for H.J. Andrews WS10 soil data"
+version: 1.0.0
+date-released: "2026-09-23"
+license: MIT
+repository-code: "https://github.com/XTakver/HJA-WS10-Hydrologic-History"
+abstract: >-
+  Reproducible R analysis code for the article "Hydrologic History Drives
+  Divergent Soil Organic Matter Trajectories Across Hillslopes" (Journal of
+  Geophysical Research: Biogeosciences). Processes, analyzes, and plots
+  soil-moisture time series, FTICR-MS organic matter chemistry, soil
+  biogeochemistry, vegetation, and soil physical properties from Watershed 10,
+  H.J. Andrews Experimental Forest, Oregon, USA.
+authors:
+  - family-names: Takver
+    given-names: Xander
+    affiliation: "Oregon State University"
+    email: xander.takver@oregonstate.edu
+    orcid: "https://orcid.org/0009-0009-3320-2032"
+  # Add any coauthors who contributed to the code, e.g.:
+  # - family-names: Lastname
+  #   given-names: Firstname
+  #   affiliation: "Institution"
+  #   orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - soil organic matter
+  - FTICR-MS
+  - hillslope hydrology
+  - soil moisture
+  - H.J. Andrews Experimental Forest
+  - R
+references:
+  - type: article
+    title: "Hydrologic History Drives Divergent Soil Organic Matter Trajectories Across Hillslopes"
+    authors:
+      - family-names: Takver
+        given-names: Xander
+    journal: "Journal of Geophysical Research: Biogeosciences"
+    year: 2026
+    # doi: "10.1029/XXXXXXXXXX"  # add once published
+  - type: data
+    title: "Data for 'Hydrologic History Drives Divergent Soil Organic Matter Trajectories Across Hillslopes': soil biogeochemistry and FTICR-MS data from H.J. Andrews Experimental Forest WS10, 2023"
+    authors:
+      - family-names: Takver
+        given-names: Xander
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.22920772"
