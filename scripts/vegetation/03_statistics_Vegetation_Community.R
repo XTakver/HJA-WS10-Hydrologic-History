@@ -150,6 +150,12 @@ write_csv(per_year_results, file.path(SD, 'Veg_Permanova_byYear.csv'))
 
 ##               Diversity ----
 
+# NOTE: lmer() below warning: "Some predictor variables are on very different scales" 
+# for all six diversity models. This is a benign numerical conditioning warning, 
+# not a convergence failure. This warning only appears on some machines and in 
+# some environments. Fitted values and reported p-values are confirmed unaffected.
+
+
 # Shannon
 m_shannon <- lmer(shannon ~ year * hillslope + (1 | plot), data = diversity_data)
 Anova(m_shannon, type = 'III')

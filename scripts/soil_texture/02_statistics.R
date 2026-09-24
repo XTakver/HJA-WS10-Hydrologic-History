@@ -178,7 +178,7 @@ table_s4 <- bind_rows(
   summarize_psf(clay_data, 'Clay'),
   summarize_psf(silt_data, 'Silt'),
   summarize_psf(sand_data, 'Sand')) |> 
-  mutate(hillslope = recode(hillslope, 'High' = 'HS', 'Low' = 'LS')) |> 
+  mutate(hillslope = dplyr::recode(hillslope, 'High' = 'HS', 'Low' = 'LS')) |> 
   arrange(fraction, hillslope, depth_groups)
 
 

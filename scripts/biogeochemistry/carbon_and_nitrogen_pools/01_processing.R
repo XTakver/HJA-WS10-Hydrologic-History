@@ -63,7 +63,7 @@ df_OCarbon_Long <-
   pivot_longer(cols = c(maom_c, weom_c, mbc),
                names_to = 'carbon_pool',
                values_to = 'mg_per_kg') |> 
-  mutate(carbon_pool = recode(carbon_pool,
+  mutate(carbon_pool = dplyr::recode(carbon_pool,
                               maom_c = 'MAOM C',
                               weom_c = 'WEOM C',
                               mbc = 'Microbial Biomass C'))
